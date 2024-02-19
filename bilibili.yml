@@ -94,13 +94,6 @@ proxy-groups:
     proxies:
       - 🚀 Nexitally
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🌍 其他地区
       - 🚀 手动切换
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 广告拦截
