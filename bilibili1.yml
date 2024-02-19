@@ -21,35 +21,8 @@ proxies:
   - {name: 🇧🇷 dci圣保罗+cf 32498, server: cf3.myya.link, port: 80, type: vmess, uuid: 61c51dd1-c1ea-4e6a-d98e-e98f91d7e027, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /32498, headers: {Host: cf3.myya.link}}, udp: true}
   - {name: qq群捡80端口免流, server: 185.225.20.102, port: 80, type: vmess, uuid: de30bdbf-4642-4ad7-9818-3c39d57d9b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
 proxy-groups:
-  - name: 🚀 Nexitally
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - DIRECT
   - name: 🚀 手动切换
     type: select
-    proxies:
-      - 🇰🇷 dci付费首尔9ml28102-7iou4f28y
-      - 🇺🇸 hax-us-自用80
-      - hax-eu-自用80
-      - 🇩🇪 dci德国-ml20349
-      - 🇧🇷 dci圣保罗-ml32499
-      - 美月抛2.17ml20551-odnbuoipa
-      - 🇭🇰 Hong Kong 01 80
-      - 🇺🇸 United States 01 80
-      - 🇰🇷 Korea 01
-      - 🇯🇵 Japan 01
-      - 🇮🇹 Italy 01
-      - 🇸🇬 Singapore 01
-      - 🇩🇪 dci德国+cf 20348
-      - 🇧🇷 dci圣保罗+cf 32498
-      - qq群捡80端口免流
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
     proxies:
       - 🇰🇷 dci付费首尔9ml28102-7iou4f28y
       - 🇺🇸 hax-us-自用80
@@ -92,7 +65,6 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 Nexitally
       - DIRECT
       - 🚀 手动切换
 rules:
