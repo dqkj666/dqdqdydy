@@ -159,6 +159,7 @@ proxy-groups:
       - 🇺🇸 bt优先使用此节点 美国30075
 rules:
     - DOMAIN-SUFFIX,wxvcard.hhu.edu.cn, 门禁分流（直连）
+    - DOMAIN-SUFFIX,conn-service-cn-05.allawntech.com, 门禁分流（直连）
     - DOMAIN-SUFFIX,zhinengxiyifang.cn,支付宝u净（直连）
     - DOMAIN-SUFFIX,ujing.online,支付宝u净（直连）
     - DOMAIN-SUFFIX,ujing.com.cn,支付宝u净（直连）
