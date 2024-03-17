@@ -119,7 +119,7 @@ proxy-groups:
       - 🇩🇪 德国36741-usrtgedi
       - 🇺🇸 bt优先使用此节点 美国30075
 rules:
-    - DOMAIN-SUFFIX,openai.com,门禁分流（直连）
+    - DOMAIN-SUFFIX,openai.com, 门禁分流（直连）
 
 
-    - MATCH,🐟 漏网之鱼
+    - MATCH,  🐟 漏网之鱼
