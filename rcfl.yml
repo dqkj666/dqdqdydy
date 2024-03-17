@@ -40,6 +40,7 @@ proxies:
   - {name: 🇰🇷 韩国21856-usrtgedi, server: chuncheonarm.yuwan.link, port: 21856, type: vmess, uuid: 2dc9608a-4dcd-4be5-a85b-e71633381181, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /21856, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
   - {name: 🇩🇪 德国36741-usrtgedi, server: de.myya.link, port: 36741, type: vmess, uuid: 57c77502-0ec8-4c7b-8e96-37c0126169fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36741, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
   - {name: 🇺🇸 bt优先使用此节点 美国30075, server: 142.171.121.17, port: 30075, type: vmess, uuid: 784a6534-ceb9-48c6-cb51-7173cecb9a99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /30075, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
+proxy-groups:
   - name:  🐟 漏网之鱼
     type: select
     proxies:
