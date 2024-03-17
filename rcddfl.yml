@@ -162,6 +162,10 @@ rules:
     - DOMAIN-SUFFIX,zhinengxiyifang.cn,支付宝u净（直连）
     - DOMAIN-SUFFIX,ujing.online,支付宝u净（直连）
     - DOMAIN-SUFFIX,ujing.com.cn,支付宝u净（直连）
+    - DOMAIN-SUFFIX,umini.shujupie.com,支付宝u净（直连）
+    - DOMAIN-SUFFIX,fe-logs.cn-hangzhou.log.alliyuncs.com,支付宝u净（直连）
+    - DOMAIN-SUFFIX,cloudsaleapi.alipay-eco.com,支付宝u净（直连）
+    
 
 
     - MATCH,  🐟 漏网之鱼
