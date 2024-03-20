@@ -37,7 +37,9 @@ proxies:
   - {name: 🇫🇷 法国45442-usrces, server: fr.myya.link, port: 45442, type: vmess, uuid: 039fda56-738e-4a2b-ad52-652a477a428c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45442, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 韩国64348-usrces, server: sr.myya.link, port: 64348, type: vmess, uuid: e6a35617-080a-4155-bd43-2346bb472161, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64348, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 v6美国8888-usrces, server: v6.myya.link, port: 8888, type: vmess, uuid: 269ad1c2-44f6-4d3d-bcea-6124aa42c123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8888, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 韩国21856-usrtgedi, server: chuncheonarm.yuwan.link, port: 21856, type: vmess, uuid: 2dc9608a-4dcd-4be5-a85b-e71633381181, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /21856, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
+  - {name: 🇫🇷 法国45449-usrwxdd, server: fr.myya.link, port: 45449, type: vmess, uuid: bddd37b4-b67b-41c5-98d9-be0888dbc1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45449, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇰🇷 韩国64345-usrwxdd, server: sr.myya.link, port: 64345, type: vmess, uuid: a7ca6e43-0409-4060-b7e3-37686955fbd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64345, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇰🇷 韩国63094-usrtgedi, server: sr2.myya.link, port: 63094, type: vmess, uuid: 79193b6d-cbdb-4bac-a452-a9e68565009b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63094, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
   - {name: 🇩🇪 德国36741-usrtgedi, server: de.myya.link, port: 36741, type: vmess, uuid: 57c77502-0ec8-4c7b-8e96-37c0126169fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36741, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
   - {name: 🇺🇸 bt优先使用此节点 美国30075, server: 142.171.121.17, port: 30075, type: vmess, uuid: 784a6534-ceb9-48c6-cb51-7173cecb9a99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /30075, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
 proxy-groups:
@@ -76,7 +78,9 @@ proxy-groups:
       - 🇫🇷 法国45442-usrces
       - 🇰🇷 韩国64348-usrces
       - 🇺🇸 v6美国8888-usrces
-      - 🇰🇷 韩国21856-usrtgedi
+      - 🇫🇷 法国45449-usrwxdd
+      - 🇰🇷 韩国64345-usrwxdd
+      - 🇰🇷 韩国63094-usrtgedi
       - 🇩🇪 德国36741-usrtgedi
       - 🇺🇸 bt优先使用此节点 美国30075
   - name: 门禁分流（直连）
@@ -115,7 +119,9 @@ proxy-groups:
       - 🇫🇷 法国45442-usrces
       - 🇰🇷 韩国64348-usrces
       - 🇺🇸 v6美国8888-usrces
-      - 🇰🇷 韩国21856-usrtgedi
+      - 🇫🇷 法国45449-usrwxdd
+      - 🇰🇷 韩国64345-usrwxdd
+      - 🇰🇷 韩国63094-usrtgedi
       - 🇩🇪 德国36741-usrtgedi
       - 🇺🇸 bt优先使用此节点 美国30075
   - name: 支付宝u净（直连）
@@ -154,7 +160,9 @@ proxy-groups:
       - 🇫🇷 法国45442-usrces
       - 🇰🇷 韩国64348-usrces
       - 🇺🇸 v6美国8888-usrces
-      - 🇰🇷 韩国21856-usrtgedi
+      - 🇫🇷 法国45449-usrwxdd
+      - 🇰🇷 韩国64345-usrwxdd
+      - 🇰🇷 韩国63094-usrtgedi
       - 🇩🇪 德国36741-usrtgedi
       - 🇺🇸 bt优先使用此节点 美国30075
 rules:
