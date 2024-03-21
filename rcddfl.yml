@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 v6香港80|ziyong, server: hk.myya.link, port: 80, type: vmess, uuid: e2ad5b49-b6f8-4919-9dd2-4e6565737150, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 美国v6 80-ziyong, server: v6.myya.link, port: 80, type: vmess, uuid: 447a4622-9608-4095-86bd-8651423a0d91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: sjy春川21858|ziyong, server: chuncheonarm.yuwan.link, port: 21858, type: vmess, uuid: fdf82ee0-c3c6-4561-c49e-f674e11dd837, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /21858, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 node洛杉矶30076, server: 142.171.121.17, port: 30076, type: vmess, uuid: 94735dca-e102-473b-e165-97cfa1bb34ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /30076, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
@@ -46,6 +47,7 @@ proxy-groups:
   - name:  🐟 漏网之鱼
     type: select
     proxies:
+      - 🇭🇰 v6香港80|ziyong
       - 🇺🇸 美国v6 80-ziyong
       - sjy春川21858|ziyong
       - 🇺🇸 node洛杉矶30076
@@ -87,6 +89,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 🇭🇰 v6香港80|ziyong
       - 🇺🇸 美国v6 80-ziyong
       - sjy春川21858|ziyong
       - 🇺🇸 node洛杉矶30076
@@ -128,6 +131,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 🇭🇰 v6香港80|ziyong
       - 🇺🇸 美国v6 80-ziyong
       - sjy春川21858|ziyong
       - 🇺🇸 node洛杉矶30076
