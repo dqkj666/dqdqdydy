@@ -91,6 +91,11 @@ proxy-groups:
       - 🇺🇸 bt优先使用此节点 美国30075
 rules:
     - DOMAIN-SUFFIX,bing.com,bing节点
+    - DOMAIN-SUFFIX,scorecardresearch.com,bing节点
+    - DOMAIN-SUFFIX,msftauth.net,bing节点
+    - DOMAIN-SUFFIX,msftstatic.com,bing节点
+    - DOMAIN-SUFFIX,azureedge.net,bing节点
+    - DOMAIN-SUFFIX,afraid.org,bing节点
     - DOMAIN-SUFFIX,nelreports.net,bing节点
     - DOMAIN-SUFFIX,msn.com,bing节点
     - DOMAIN-SUFFIX,microsoft.com,bing节点
