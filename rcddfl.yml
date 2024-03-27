@@ -12,7 +12,8 @@ proxies:
   - {name: 🇨🇳 qq捡杭州阿里云, server: 114.55.226.12, port: 23998, type: vmess, uuid: fc1f4f26-2718-49d0-f89b-8396c220b25d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 hax-us-53, server: 2602:294:0:b7:1234:1234:d777:1, port: 53, type: vmess, uuid: 54009839-852b-48d9-afa7-c2a34d4cc89f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5353, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: hax-eu-53, server: 2a01:4f8:211:2312:1234:4321:5082:1, port: 53, type: vmess, uuid: b214c3cf-79eb-4f09-8e90-def1080cd023, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5353, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 首尔9自用62599, server: sr3.myya.link, port: 62599, type: vmess, uuid: cb245306-d5e1-4817-896d-94c33952022a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /62599, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 首尔8自用34449, server: sr3.myya.link, port: 34449, type: vmess, uuid: 535985b6-c5ed-4874-8624-f782aa0af145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /34449, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 春川3自用63499, server: cc.myya.link, port: 63499, type: vmess, uuid: cb245306-d5e1-4817-896d-94c33952022a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63499, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 首尔5自用64349, server: sr.myya.link, port: 64349, type: vmess, uuid: 5448f910-7a12-4f34-b792-8f4ea653d058, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64349, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 首尔12自用63099, server: sr2.myya.link, port: 63099, type: vmess, uuid: 9b3edb41-176b-4e1b-b0e4-c16f585b2f48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63099, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇩🇪 德国6自用36748, server: de.myya.link, port: 36748, type: vmess, uuid: b6b7c14c-8104-418b-871e-596830f02d55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36748, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
@@ -23,8 +24,6 @@ proxies:
   - {name: 🇩🇪 德国36745-usrqqd, server: de.myya.link, port: 36745, type: vmess, uuid: ff7aefd5-050c-46a6-9287-79b6f71ea725, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36745, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 韩国64346-usrdr, server: sr.myya.link, port: 64346, type: vmess, uuid: f131a126-babe-4c7a-9350-1c5f3deb7360, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64346, headers: {Host: tms.dingtalk.com}}, udp: true}
   - {name: 🇩🇪 德国36743-usrdr, server: de.myya.link, port: 36743, type: vmess, uuid: a76ece90-c7f0-4076-a58c-3bc6e5e51b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36743, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 韩国63097-usrqqmp, server: sr2.myya.link, port: 63097, type: vmess, uuid: d7ce4fe8-d873-4052-861a-48db3e98c9e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63097, headers: {Host: mopan.sc.189.cn}}, udp: true}
-  - {name: 🇩🇪 德国36742-usrqqmp, server: de.myya.link, port: 36742, type: vmess, uuid: 93a41a6e-6831-4d9f-81f8-c24920fb7242, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36742, headers: {Host: mopan.sc.189.cn}}, udp: true}
   - {name: "🇨🇳 V2 [ Taiwan ] - 02 - 三网直连", server: twyh.jykeji.xyz, port: 60000, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: "🇭🇰 V2 [ HKT ] - 02 - 三网直连", server: hkt.sjys66.me, port: 60001, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: "🇨🇳 V2 [ Taiwan ] - 03 - 三网直连", server: tw1-vds8.anyhk.co, port: 60000, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
@@ -35,8 +34,6 @@ proxies:
   - {name: 🇫🇷 法国45442-usrces, server: fr.myya.link, port: 45442, type: vmess, uuid: 039fda56-738e-4a2b-ad52-652a477a428c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45442, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 韩国64348-usrces, server: sr.myya.link, port: 64348, type: vmess, uuid: e6a35617-080a-4155-bd43-2346bb472161, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64348, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 v6美国8888-usrces, server: v6.myya.link, port: 8888, type: vmess, uuid: 269ad1c2-44f6-4d3d-bcea-6124aa42c123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8888, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇫🇷 法国45449-usrwxdd, server: fr.myya.link, port: 45449, type: vmess, uuid: bddd37b4-b67b-41c5-98d9-be0888dbc1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45449, headers: {Host: gw.alicdn.com}}, udp: true}
-  - {name: 🇰🇷 韩国64345-usrwxdd, server: sr.myya.link, port: 64345, type: vmess, uuid: a7ca6e43-0409-4060-b7e3-37686955fbd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64345, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 🇰🇷 韩国63094-usrtgedi, server: sr2.myya.link, port: 63094, type: vmess, uuid: 79193b6d-cbdb-4bac-a452-a9e68565009b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63094, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
   - {name: 🇩🇪 德国36741-usrtgedi, server: de.myya.link, port: 36741, type: vmess, uuid: 57c77502-0ec8-4c7b-8e96-37c0126169fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36741, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
   - {name: 🇺🇸 bt优先使用此节点 美国30075, server: 142.171.121.17, port: 30075, type: vmess, uuid: 784a6534-ceb9-48c6-cb51-7173cecb9a99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /30075, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
@@ -45,6 +42,13 @@ proxies:
   - {name: 🇫🇷 法国45439-usrwl, server: fr.myya.link, port: 45439, type: vmess, uuid: ea38e365-8fe0-4f3b-b083-aba21f03fe85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45439, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 韩国64344-usrwl, server: sr.myya.link, port: 64344, type: vmess, uuid: aa946b42-3417-48d8-b7ba-601790d08176, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64344, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 v6美国8888-usrwl, server: v6.myya.link, port: 8888, type: vmess, uuid: c21e93f0-45b8-47ce-ad20-d396fec4acda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8888, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 韩国63498-usrqqmp, server: cc.myya.link, port: 63498, type: vmess, uuid: 51ca5fc5-9413-4bcd-98d3-5be8ba1ffafa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63498, headers: {Host: mopan.sc.189.cn}}, udp: true}
+  - {name: 🇰🇷 韩国63097-usrqqmp, server: sr2.myya.link, port: 63097, type: vmess, uuid: d7ce4fe8-d873-4052-861a-48db3e98c9e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63097, headers: {Host: mopan.sc.189.cn}}, udp: true}
+  - {name: 🇩🇪 德国36742-usrqqmp, server: de.myya.link, port: 36742, type: vmess, uuid: 93a41a6e-6831-4d9f-81f8-c24920fb7242, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36742, headers: {Host: mopan.sc.189.cn}}, udp: true}
+  - {name: 🇺🇸 v6美国8888-usrqqmp, server: v6.myya.link, port: 8888, type: vmess, uuid: d2e01a9c-362a-44df-b7b7-0c9f112f6ce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8888, headers: {Host: mopan.sc.189.cn}}, udp: true}
+  - {name: 🇰🇷 韩国63497-usrwxdd, server: cc.myya.link, port: 63497, type: vmess, uuid: ea9fda73-8aaf-4756-8b53-6c846267b74d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63497, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇫🇷 法国45449-usrwxdd, server: fr.myya.link, port: 45449, type: vmess, uuid: bddd37b4-b67b-41c5-98d9-be0888dbc1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45449, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇰🇷 韩国64345-usrwxdd, server: sr.myya.link, port: 64345, type: vmess, uuid: a7ca6e43-0409-4060-b7e3-37686955fbd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64345, headers: {Host: gw.alicdn.com}}, udp: true}
 proxy-groups:
   - name:  🐟 漏网之鱼
     type: select
@@ -56,7 +60,8 @@ proxy-groups:
       - 🇨🇳 qq捡杭州阿里云
       - 🇺🇸 hax-us-53
       - hax-eu-53
-      - 🇰🇷 首尔9自用62599
+      - 🇰🇷 首尔8自用34449
+      - 春川3自用63499
       - 🇰🇷 首尔5自用64349
       - 🇰🇷 首尔12自用63099
       - 🇩🇪 德国6自用36748
@@ -67,8 +72,6 @@ proxy-groups:
       - 🇩🇪 德国36745-usrqqd
       - 🇰🇷 韩国64346-usrdr
       - 🇩🇪 德国36743-usrdr
-      - 🇰🇷 韩国63097-usrqqmp
-      - 🇩🇪 德国36742-usrqqmp
       - 🇨🇳 V2 [ Taiwan ] - 02 - 三网直连
       - 🇭🇰 V2 [ HKT ] - 02 - 三网直连
       - 🇨🇳 V2 [ Taiwan ] - 03 - 三网直连
@@ -79,8 +82,6 @@ proxy-groups:
       - 🇫🇷 法国45442-usrces
       - 🇰🇷 韩国64348-usrces
       - 🇺🇸 v6美国8888-usrces
-      - 🇫🇷 法国45449-usrwxdd
-      - 🇰🇷 韩国64345-usrwxdd
       - 🇰🇷 韩国63094-usrtgedi
       - 🇩🇪 德国36741-usrtgedi
       - 🇺🇸 bt优先使用此节点 美国30075
@@ -89,6 +90,13 @@ proxy-groups:
       - 🇫🇷 法国45439-usrwl
       - 🇰🇷 韩国64344-usrwl
       - 🇺🇸 v6美国8888-usrwl
+      - 🇰🇷 韩国63498-usrqqmp
+      - 🇰🇷 韩国63097-usrqqmp
+      - 🇩🇪 德国36742-usrqqmp
+      - 🇺🇸 v6美国8888-usrqqmp
+      - 🇰🇷 韩国63497-usrwxdd
+      - 🇫🇷 法国45449-usrwxdd
+      - 🇰🇷 韩国64345-usrwxdd
   - name: 门禁分流（直连）
     type: select
     proxies:
@@ -100,7 +108,8 @@ proxy-groups:
       - 🇨🇳 qq捡杭州阿里云
       - 🇺🇸 hax-us-53
       - hax-eu-53
-      - 🇰🇷 首尔9自用62599
+      - 🇰🇷 首尔8自用34449
+      - 春川3自用63499
       - 🇰🇷 首尔5自用64349
       - 🇰🇷 首尔12自用63099
       - 🇩🇪 德国6自用36748
@@ -111,8 +120,6 @@ proxy-groups:
       - 🇩🇪 德国36745-usrqqd
       - 🇰🇷 韩国64346-usrdr
       - 🇩🇪 德国36743-usrdr
-      - 🇰🇷 韩国63097-usrqqmp
-      - 🇩🇪 德国36742-usrqqmp
       - 🇨🇳 V2 [ Taiwan ] - 02 - 三网直连
       - 🇭🇰 V2 [ HKT ] - 02 - 三网直连
       - 🇨🇳 V2 [ Taiwan ] - 03 - 三网直连
@@ -123,8 +130,6 @@ proxy-groups:
       - 🇫🇷 法国45442-usrces
       - 🇰🇷 韩国64348-usrces
       - 🇺🇸 v6美国8888-usrces
-      - 🇫🇷 法国45449-usrwxdd
-      - 🇰🇷 韩国64345-usrwxdd
       - 🇰🇷 韩国63094-usrtgedi
       - 🇩🇪 德国36741-usrtgedi
       - 🇺🇸 bt优先使用此节点 美国30075
@@ -133,6 +138,13 @@ proxy-groups:
       - 🇫🇷 法国45439-usrwl
       - 🇰🇷 韩国64344-usrwl
       - 🇺🇸 v6美国8888-usrwl
+      - 🇰🇷 韩国63498-usrqqmp
+      - 🇰🇷 韩国63097-usrqqmp
+      - 🇩🇪 德国36742-usrqqmp
+      - 🇺🇸 v6美国8888-usrqqmp
+      - 🇰🇷 韩国63497-usrwxdd
+      - 🇫🇷 法国45449-usrwxdd
+      - 🇰🇷 韩国64345-usrwxdd
   - name: 支付宝u净（直连）
     type: select
     proxies:
@@ -144,7 +156,8 @@ proxy-groups:
       - 🇨🇳 qq捡杭州阿里云
       - 🇺🇸 hax-us-53
       - hax-eu-53
-      - 🇰🇷 首尔9自用62599
+      - 🇰🇷 首尔8自用34449
+      - 春川3自用63499
       - 🇰🇷 首尔5自用64349
       - 🇰🇷 首尔12自用63099
       - 🇩🇪 德国6自用36748
@@ -155,8 +168,6 @@ proxy-groups:
       - 🇩🇪 德国36745-usrqqd
       - 🇰🇷 韩国64346-usrdr
       - 🇩🇪 德国36743-usrdr
-      - 🇰🇷 韩国63097-usrqqmp
-      - 🇩🇪 德国36742-usrqqmp
       - 🇨🇳 V2 [ Taiwan ] - 02 - 三网直连
       - 🇭🇰 V2 [ HKT ] - 02 - 三网直连
       - 🇨🇳 V2 [ Taiwan ] - 03 - 三网直连
@@ -167,8 +178,6 @@ proxy-groups:
       - 🇫🇷 法国45442-usrces
       - 🇰🇷 韩国64348-usrces
       - 🇺🇸 v6美国8888-usrces
-      - 🇫🇷 法国45449-usrwxdd
-      - 🇰🇷 韩国64345-usrwxdd
       - 🇰🇷 韩国63094-usrtgedi
       - 🇩🇪 德国36741-usrtgedi
       - 🇺🇸 bt优先使用此节点 美国30075
@@ -177,6 +186,13 @@ proxy-groups:
       - 🇫🇷 法国45439-usrwl
       - 🇰🇷 韩国64344-usrwl
       - 🇺🇸 v6美国8888-usrwl
+      - 🇰🇷 韩国63498-usrqqmp
+      - 🇰🇷 韩国63097-usrqqmp
+      - 🇩🇪 德国36742-usrqqmp
+      - 🇺🇸 v6美国8888-usrqqmp
+      - 🇰🇷 韩国63497-usrwxdd
+      - 🇫🇷 法国45449-usrwxdd
+      - 🇰🇷 韩国64345-usrwxdd
 rules:
     - DOMAIN-SUFFIX,wxvcard.hhu.edu.cn, 门禁分流（直连）
     - DOMAIN-SUFFIX,zhinengxiyifang.cn,支付宝u净（直连）
