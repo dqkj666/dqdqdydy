@@ -5,17 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 v6香港80|ziyong, server: hk.myya.link, port: 80, type: vmess, uuid: e2ad5b49-b6f8-4919-9dd2-4e6565737150, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港v6 80|ziyong, server: hk.myya.link, port: 80, type: vmess, uuid: e2ad5b49-b6f8-4919-9dd2-4e6565737150, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 美国v6 80-ziyong, server: v6.myya.link, port: 80, type: vmess, uuid: 447a4622-9608-4095-86bd-8651423a0d91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: sjy春川21858|ziyong, server: chuncheonarm.yuwan.link, port: 21858, type: vmess, uuid: fdf82ee0-c3c6-4561-c49e-f674e11dd837, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /21858, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 node洛杉矶30076, server: 142.171.121.17, port: 30076, type: vmess, uuid: 94735dca-e102-473b-e165-97cfa1bb34ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /30076, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇨🇳 qq捡杭州阿里云, server: 114.55.226.12, port: 23998, type: vmess, uuid: fc1f4f26-2718-49d0-f89b-8396c220b25d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 hax-us-53, server: 2602:294:0:b7:1234:1234:d777:1, port: 53, type: vmess, uuid: 54009839-852b-48d9-afa7-c2a34d4cc89f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5353, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: hax-eu-53, server: 2a01:4f8:211:2312:1234:4321:5082:1, port: 53, type: vmess, uuid: b214c3cf-79eb-4f09-8e90-def1080cd023, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5353, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 首尔8自用34449, server: sr3.myya.link, port: 34449, type: vmess, uuid: 535985b6-c5ed-4874-8624-f782aa0af145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /34449, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 春川3自用63499, server: cc.myya.link, port: 63499, type: vmess, uuid: cb245306-d5e1-4817-896d-94c33952022a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63499, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 首尔5自用64349, server: sr.myya.link, port: 64349, type: vmess, uuid: 5448f910-7a12-4f34-b792-8f4ea653d058, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64349, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 首尔12自用63099, server: sr2.myya.link, port: 63099, type: vmess, uuid: 9b3edb41-176b-4e1b-b0e4-c16f585b2f48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63099, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 首尔3(1号)自用64349, server: sr.myya.link, port: 64349, type: vmess, uuid: 5448f910-7a12-4f34-b792-8f4ea653d058, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64349, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 首尔2(2号)自用60149, server: sr2.myya.link, port: 60149, type: vmess, uuid: 1ea98882-c8a0-4c94-9a27-c87c2d8a8fac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /60149, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 首尔6(3号)自用34449, server: sr3.myya.link, port: 34449, type: vmess, uuid: 535985b6-c5ed-4874-8624-f782aa0af145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /34449, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇩🇪 德国6自用36748, server: de.myya.link, port: 36748, type: vmess, uuid: b6b7c14c-8104-418b-871e-596830f02d55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36748, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇫🇷 法国自用45438, server: fr.myya.link, port: 45438, type: vmess, uuid: 4fc908cb-f62c-4e8c-86dc-67d93c3a3ce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fg45438, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 hax-us-自用80, server: 2602:294:0:b7:1234:1234:d777:1, port: 80, type: vmess, uuid: a40e0e1e-fe0e-4ee2-a484-2d84fe456843, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ml80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
@@ -53,17 +53,17 @@ proxy-groups:
   - name:  🐟 漏网之鱼
     type: select
     proxies:
-      - 🇭🇰 v6香港80|ziyong
+      - 🇭🇰 香港v6 80|ziyong
       - 🇺🇸 美国v6 80-ziyong
       - sjy春川21858|ziyong
       - 🇺🇸 node洛杉矶30076
       - 🇨🇳 qq捡杭州阿里云
       - 🇺🇸 hax-us-53
       - hax-eu-53
-      - 🇰🇷 首尔8自用34449
       - 春川3自用63499
-      - 🇰🇷 首尔5自用64349
-      - 🇰🇷 首尔12自用63099
+      - 🇰🇷 首尔3(1号)自用64349
+      - 🇰🇷 首尔2(2号)自用60149
+      - 🇰🇷 首尔6(3号)自用34449
       - 🇩🇪 德国6自用36748
       - 🇫🇷 法国自用45438
       - 🇺🇸 hax-us-自用80
@@ -101,17 +101,17 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 v6香港80|ziyong
+      - 🇭🇰 香港v6 80|ziyong
       - 🇺🇸 美国v6 80-ziyong
       - sjy春川21858|ziyong
       - 🇺🇸 node洛杉矶30076
       - 🇨🇳 qq捡杭州阿里云
       - 🇺🇸 hax-us-53
       - hax-eu-53
-      - 🇰🇷 首尔8自用34449
       - 春川3自用63499
-      - 🇰🇷 首尔5自用64349
-      - 🇰🇷 首尔12自用63099
+      - 🇰🇷 首尔3(1号)自用64349
+      - 🇰🇷 首尔2(2号)自用60149
+      - 🇰🇷 首尔6(3号)自用34449
       - 🇩🇪 德国6自用36748
       - 🇫🇷 法国自用45438
       - 🇺🇸 hax-us-自用80
@@ -149,17 +149,17 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 v6香港80|ziyong
+      - 🇭🇰 香港v6 80|ziyong
       - 🇺🇸 美国v6 80-ziyong
       - sjy春川21858|ziyong
       - 🇺🇸 node洛杉矶30076
       - 🇨🇳 qq捡杭州阿里云
       - 🇺🇸 hax-us-53
       - hax-eu-53
-      - 🇰🇷 首尔8自用34449
       - 春川3自用63499
-      - 🇰🇷 首尔5自用64349
-      - 🇰🇷 首尔12自用63099
+      - 🇰🇷 首尔3(1号)自用64349
+      - 🇰🇷 首尔2(2号)自用60149
+      - 🇰🇷 首尔6(3号)自用34449
       - 🇩🇪 德国6自用36748
       - 🇫🇷 法国自用45438
       - 🇺🇸 hax-us-自用80
