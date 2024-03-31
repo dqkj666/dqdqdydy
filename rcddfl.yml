@@ -49,6 +49,7 @@ proxies:
   - {name: 🇰🇷 韩国春川63497-usrwxdd, server: cc.myya.link, port: 63497, type: vmess, uuid: ea9fda73-8aaf-4756-8b53-6c846267b74d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63497, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 🇫🇷 法国45449-usrwxdd, server: fr.myya.link, port: 45449, type: vmess, uuid: bddd37b4-b67b-41c5-98d9-be0888dbc1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45449, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 🇰🇷 韩国1号64345-usrwxdd, server: sr.myya.link, port: 64345, type: vmess, uuid: a7ca6e43-0409-4060-b7e3-37686955fbd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64345, headers: {Host: gw.alicdn.com}}, udp: true}
+proxy-groups:
   - name:  🐟 漏网之鱼
     type: select
     proxies:
