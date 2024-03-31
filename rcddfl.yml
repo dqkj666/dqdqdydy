@@ -13,6 +13,7 @@ proxies:
   - {name: 🇺🇸 hax-us-53, server: 2602:294:0:b7:1234:1234:d777:1, port: 53, type: vmess, uuid: 54009839-852b-48d9-afa7-c2a34d4cc89f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5353, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: hax-eu-53, server: 2a01:4f8:211:2312:1234:4321:5082:1, port: 53, type: vmess, uuid: b214c3cf-79eb-4f09-8e90-def1080cd023, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5353, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 春川3自用63499, server: cc.myya.link, port: 63499, type: vmess, uuid: cb245306-d5e1-4817-896d-94c33952022a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63499, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 首尔6自用34449, server: sr3.myya.link, port: 34449, type: vmess, uuid: 46b6b124-5cd2-4180-95ca-60cb4b5b068e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /34449, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 首尔3自用64349, server: sr.myya.link, port: 64349, type: vmess, uuid: 5448f910-7a12-4f34-b792-8f4ea653d058, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64349, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 首尔2自用60149, server: sr2.myya.link, port: 60149, type: vmess, uuid: 1ea98882-c8a0-4c94-9a27-c87c2d8a8fac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /60149, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇩🇪 德国6自用36748, server: de.myya.link, port: 36748, type: vmess, uuid: b6b7c14c-8104-418b-871e-596830f02d55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36748, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
@@ -61,6 +62,7 @@ proxy-groups:
       - 🇺🇸 hax-us-53
       - hax-eu-53
       - 春川3自用63499
+      - 🇰🇷 首尔6自用34449
       - 🇰🇷 首尔3自用64349
       - 🇰🇷 首尔2自用60149
       - 🇩🇪 德国6自用36748
@@ -109,6 +111,7 @@ proxy-groups:
       - 🇺🇸 hax-us-53
       - hax-eu-53
       - 春川3自用63499
+      - 🇰🇷 首尔6自用34449
       - 🇰🇷 首尔3自用64349
       - 🇰🇷 首尔2自用60149
       - 🇩🇪 德国6自用36748
@@ -157,6 +160,7 @@ proxy-groups:
       - 🇺🇸 hax-us-53
       - hax-eu-53
       - 春川3自用63499
+      - 🇰🇷 首尔6自用34449
       - 🇰🇷 首尔3自用64349
       - 🇰🇷 首尔2自用60149
       - 🇩🇪 德国6自用36748
