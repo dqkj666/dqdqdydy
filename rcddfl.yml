@@ -20,36 +20,52 @@ proxies:
   - {name: 🇫🇷 法国自用45438, server: fr.myya.link, port: 45438, type: vmess, uuid: 4fc908cb-f62c-4e8c-86dc-67d93c3a3ce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fg45438, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 hax-us-自用80, server: 2602:294:0:b7:1234:1234:d777:1, port: 80, type: vmess, uuid: a40e0e1e-fe0e-4ee2-a484-2d84fe456843, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ml80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: hax-eu-自用80, server: 2a01:4f8:211:2312:1234:4321:5082:1, port: 80, type: vmess, uuid: e5485113-35fa-48c6-c82f-51fbeb256f93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ml80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 韩国节点63098-usrqqd, server: sr2.myya.link, port: 63098, type: vmess, uuid: fbc57c47-2b42-428a-9d4e-e68400b8c32f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63098, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇩🇪 德国36745-usrqqd, server: de.myya.link, port: 36745, type: vmess, uuid: ff7aefd5-050c-46a6-9287-79b6f71ea725, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36745, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 韩国64346-usrdr, server: sr.myya.link, port: 64346, type: vmess, uuid: f131a126-babe-4c7a-9350-1c5f3deb7360, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64346, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇩🇪 德国36743-usrdr, server: de.myya.link, port: 36743, type: vmess, uuid: a76ece90-c7f0-4076-a58c-3bc6e5e51b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36743, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: "🇨🇳 V2 [ Taiwan ] - 02 - 三网直连", server: twyh.jykeji.xyz, port: 60000, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: "🇭🇰 V2 [ HKT ] - 02 - 三网直连", server: hkt.sjys66.me, port: 60001, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: "🇨🇳 V2 [ Taiwan ] - 03 - 三网直连", server: tw1-vds8.anyhk.co, port: 60000, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: "🇭🇰 V2 [ HKT ] - 02 - CMI", server: gd.sjys66.me, port: 35698, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: "🇭🇰 V2 [ WTT ] - 01 - 两网直连", server: wtt1.hkg.hypernat.com, port: 53049, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: "🇭🇰 V2 [ US ] - vmess- CMI", server: gd.sjys66.me, port: 32611, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: "🇭🇰 V2 [ NG ] - 01 - CMI", server: gd.sjys66.me, port: 29227, type: vmess, uuid: 71569575-1a00-463e-9b4d-41ca2e0e3f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 韩国63093-usrtgjg, server: sr2.myya.link, port: 63093, type: vmess, uuid: 7db84d5d-9445-4c97-8abc-5f68b92b8422, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63093, headers: {Host: sr2.myya.link}}, udp: true}
-  - {name: 🇫🇷 法国45440-usrtgjg, server: fr.myya.link, port: 45440, type: vmess, uuid: 5c91e3bc-7ec6-43a5-b156-561e49340365, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45440, headers: {Host: fr.myya.link}}, udp: true}
-  - {name: 🇫🇷 法国45439-usrwl, server: fr.myya.link, port: 45439, type: vmess, uuid: ea38e365-8fe0-4f3b-b083-aba21f03fe85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45439, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 韩国64344-usrwl, server: sr.myya.link, port: 64344, type: vmess, uuid: aa946b42-3417-48d8-b7ba-601790d08176, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64344, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇺🇸 v6美国8888-usrwl, server: v6.myya.link, port: 8888, type: vmess, uuid: c21e93f0-45b8-47ce-ad20-d396fec4acda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8888, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇫🇷 法国45442-usrces, server: fr.myya.link, port: 45442, type: vmess, uuid: 039fda56-738e-4a2b-ad52-652a477a428c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45442, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 韩国1号64348-usrces, server: sr.myya.link, port: 64348, type: vmess, uuid: e6a35617-080a-4155-bd43-2346bb472161, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64348, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇺🇸 v6美国8888-usrces, server: v6.myya.link, port: 8888, type: vmess, uuid: 269ad1c2-44f6-4d3d-bcea-6124aa42c123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8888, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 🇰🇷 韩国3号34448-usrqqmp, server: sr3.myya.link, port: 34448, type: vmess, uuid: f63d9d2f-6a3a-4e66-9677-be60800d83fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /34448, headers: {Host: mopan.sc.189.cn}}, udp: true}
-  - {name: 🇰🇷 韩国春川63498-usrqqmp, server: cc.myya.link, port: 63498, type: vmess, uuid: 51ca5fc5-9413-4bcd-98d3-5be8ba1ffafa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63498, headers: {Host: mopan.sc.189.cn}}, udp: true}
-  - {name: 🇰🇷 韩国2号60148-usrqqmp, server: sr2.myya.link, port: 60148, type: vmess, uuid: 50d47ae7-9776-495a-ae37-d178d8c4f767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /60148, headers: {Host: mopan.sc.189.cn}}, udp: true}
-  - {name: 🇩🇪 德国36742-usrqqmp, server: de.myya.link, port: 36742, type: vmess, uuid: 93a41a6e-6831-4d9f-81f8-c24920fb7242, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36742, headers: {Host: mopan.sc.189.cn}}, udp: true}
-  - {name: 🇺🇸 v6美国8888-usrqqmp, server: v6.myya.link, port: 8888, type: vmess, uuid: d2e01a9c-362a-44df-b7b7-0c9f112f6ce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8888, headers: {Host: mopan.sc.189.cn}}, udp: true}
-  - {name: 🇰🇷 韩国2号60147-usrtgedi, server: sr2.myya.link, port: 60147, type: vmess, uuid: 79193b6d-cbdb-4bac-a452-a9e68565009b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /60147, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
-  - {name: 🇩🇪 德国36741-usrtgedi, server: de.myya.link, port: 36741, type: vmess, uuid: 57c77502-0ec8-4c7b-8e96-37c0126169fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36741, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
-  - {name: 🇺🇸 bt优先使用此节点 美国30075, server: 142.171.121.17, port: 30075, type: vmess, uuid: 784a6534-ceb9-48c6-cb51-7173cecb9a99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /30075, headers: {Host: pull-hls.free.video.10010.com}}, udp: true}
-  - {name: 🇰🇷 韩国春川63497-usrwxdd, server: cc.myya.link, port: 63497, type: vmess, uuid: ea9fda73-8aaf-4756-8b53-6c846267b74d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63497, headers: {Host: gw.alicdn.com}}, udp: true}
-  - {name: 🇫🇷 法国45449-usrwxdd, server: fr.myya.link, port: 45449, type: vmess, uuid: bddd37b4-b67b-41c5-98d9-be0888dbc1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /45449, headers: {Host: gw.alicdn.com}}, udp: true}
-  - {name: 🇰🇷 韩国1号64345-usrwxdd, server: sr.myya.link, port: 64345, type: vmess, uuid: a7ca6e43-0409-4060-b7e3-37686955fbd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /64345, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇨🇳 CN-上海游戏节点, server: 124.220.57.75, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-浙江BGP, server: nb.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-安徽联通, server: ah.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-河南移动, server: hn.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-宿迁BGP, server: sq.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-浙江BGP(443端口), server: nb.xn--wlqw1swrj04ju56d.com, port: 443, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-宿迁BGP(443端口), server: sq.xn--wlqw1swrj04ju56d.com, port: 443, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-安徽联通(443端口), server: ah.xn--wlqw1swrj04ju56d.com, port: 443, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-河南移动(443端口), server: hn.xn--wlqw1swrj04ju56d.com, port: 443, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-安徽 500m, server: ah.xn--wlqw1swrj04ju56d.com, port: 8888, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-上海1G, server: sh.xn--wlqw1swrj04ju56d.com, port: 8888, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-河南1G, server: hn.xn--wlqw1swrj04ju56d.com, port: 8888, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 TW 1G 家宽/Netflix, server: tw1g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 TW 1G(443端口) 家宽/Netflix, server: tw1g.xn--vhq70hxyat50h6wk.com, port: 443, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 HK 5G, server: hk5g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 HK 5G(443端口), server: hk5g.xn--vhq70hxyat50h6wk.com, port: 443, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇸🇬 SG 5G, server: sg5g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 JP 5G, server: jp5g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 Kr 5G, server: kr5g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: GER Frankfurt 5G, server: ger.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 以下均为中转流媒体节点, server: 127.0.0.1, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇩🇪 辽德隧道-法兰克福 5x, server: sd2.xn--wlqw1swrj04ju56d.com, port: 32036, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇦🇪 辽德隧道-迪拜 5x, server: sd2.xn--wlqw1swrj04ju56d.com, port: 37442, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇬🇧 辽德隧道-英国 5x, server: sd2.xn--wlqw1swrj04ju56d.com, port: 10501, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇹🇷 辽德隧道-土耳其 5x, server: sd2.xn--wlqw1swrj04ju56d.com, port: 16389, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 以下均解锁流媒体, server: 127.0.0.1, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 Singapore4G/Netflix, server: sg4g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: JP500m/Netflix, server: jp500m.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 JP 4G/Netflix, server: jp4g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇬🇧 UK 4G/Netflix, server: uk4g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇺🇸 US Chicago 4G/Netflix, server: us4g3.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇺🇸 US Ashburn 4G/Netflix, server: us4g2.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇦🇪 Dubai 4G/Netflix, server: dubai4g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dubai4g.xn--vhq70hxyat50h6wk.com}}, udp: true}
+  - {name: 🇰🇷 Korea 500m/Netflix, server: kr500m.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 Korea Chunchuan 4G/Netflix, server: kr4g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 Korea Seoul  4G/Netflix, server: kr4g2.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇲🇽 Mexico 4G/Netflix, server: me.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇮🇳 Mumbai 4G/Netflix, server: mu.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: ed298a13-423f-4dc3-84f3-229fa0b24b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-广西V6A-x1x, server: li.lxiayida.top, port: 81, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 CN-广西V6B-x1x, server: kpv6.kpjiasu.asia, port: 80, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: MUM中转-x1x, server: xjp.kpjiasu.asia, port: 8080, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 HK-V6-x1x, server: hkv6.770888.xyz, port: 443, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇸🇬 SG-V6-x1x, server: xjp.770888.xyz, port: 443, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xjp.770888.xyz}}, udp: true}
+  - {name: 🇯🇵 JP-x1x, server: jp-tokyo-oracle-02b459.ip1.shop, port: 50903, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 KR-x1x, server: kr-seoul-oracle-899012.ip1.shop, port: 41955, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 HK-x1x, server: 191.96.243.93, port: 80, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
 proxy-groups:
   - name:  🐟 漏网之鱼
     type: select
@@ -69,36 +85,52 @@ proxy-groups:
       - 🇫🇷 法国自用45438
       - 🇺🇸 hax-us-自用80
       - hax-eu-自用80
-      - 🇰🇷 韩国节点63098-usrqqd
-      - 🇩🇪 德国36745-usrqqd
-      - 🇰🇷 韩国64346-usrdr
-      - 🇩🇪 德国36743-usrdr
-      - 🇨🇳 V2 [ Taiwan ] - 02 - 三网直连
-      - 🇭🇰 V2 [ HKT ] - 02 - 三网直连
-      - 🇨🇳 V2 [ Taiwan ] - 03 - 三网直连
-      - 🇭🇰 V2 [ HKT ] - 02 - CMI
-      - 🇭🇰 V2 [ WTT ] - 01 - 两网直连
-      - 🇭🇰 V2 [ US ] - vmess- CMI
-      - 🇭🇰 V2 [ NG ] - 01 - CMI
-      - 🇰🇷 韩国63093-usrtgjg
-      - 🇫🇷 法国45440-usrtgjg
-      - 🇫🇷 法国45439-usrwl
-      - 🇰🇷 韩国64344-usrwl
-      - 🇺🇸 v6美国8888-usrwl
-      - 🇫🇷 法国45442-usrces
-      - 🇰🇷 韩国1号64348-usrces
-      - 🇺🇸 v6美国8888-usrces
-      - 🇰🇷 韩国3号34448-usrqqmp
-      - 🇰🇷 韩国春川63498-usrqqmp
-      - 🇰🇷 韩国2号60148-usrqqmp
-      - 🇩🇪 德国36742-usrqqmp
-      - 🇺🇸 v6美国8888-usrqqmp
-      - 🇰🇷 韩国2号60147-usrtgedi
-      - 🇩🇪 德国36741-usrtgedi
-      - 🇺🇸 bt优先使用此节点 美国30075
-      - 🇰🇷 韩国春川63497-usrwxdd
-      - 🇫🇷 法国45449-usrwxdd
-      - 🇰🇷 韩国1号64345-usrwxdd
+      - 🇨🇳 CN-上海游戏节点
+      - 🇨🇳 CN-浙江BGP
+      - 🇨🇳 CN-安徽联通
+      - 🇨🇳 CN-河南移动
+      - 🇨🇳 CN-宿迁BGP
+      - 🇨🇳 CN-浙江BGP(443端口)
+      - 🇨🇳 CN-宿迁BGP(443端口)
+      - 🇨🇳 CN-安徽联通(443端口)
+      - 🇨🇳 CN-河南移动(443端口)
+      - 🇨🇳 CN-安徽 500m
+      - 🇨🇳 CN-上海1G
+      - 🇨🇳 CN-河南1G
+      - 🇨🇳 TW 1G 家宽/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇭🇰 HK 5G
+      - 🇭🇰 HK 5G(443端口)
+      - 🇸🇬 SG 5G
+      - 🇯🇵 JP 5G
+      - 🇰🇷 Kr 5G
+      - GER Frankfurt 5G
+      - 以下均为中转流媒体节点
+      - 🇩🇪 辽德隧道-法兰克福 5x
+      - 🇦🇪 辽德隧道-迪拜 5x
+      - 🇬🇧 辽德隧道-英国 5x
+      - 🇹🇷 辽德隧道-土耳其 5x
+      - 以下均解锁流媒体
+      - 🇸🇬 Singapore4G/Netflix
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇬🇧 UK 4G/Netflix
+      - 🇺🇸 US Chicago 4G/Netflix
+      - 🇺🇸 US Ashburn 4G/Netflix
+      - 🇦🇪 Dubai 4G/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇰🇷 Korea Chunchuan 4G/Netflix
+      - 🇰🇷 Korea Seoul  4G/Netflix
+      - 🇲🇽 Mexico 4G/Netflix
+      - 🇮🇳 Mumbai 4G/Netflix
+      - 🇨🇳 CN-广西V6A-x1x
+      - 🇨🇳 CN-广西V6B-x1x
+      - MUM中转-x1x
+      - 🇭🇰 HK-V6-x1x
+      - 🇸🇬 SG-V6-x1x
+      - 🇯🇵 JP-x1x
+      - 🇰🇷 KR-x1x
+      - 🇭🇰 HK-x1x
   - name: 门禁分流（直连）
     type: select
     proxies:
@@ -118,36 +150,52 @@ proxy-groups:
       - 🇫🇷 法国自用45438
       - 🇺🇸 hax-us-自用80
       - hax-eu-自用80
-      - 🇰🇷 韩国节点63098-usrqqd
-      - 🇩🇪 德国36745-usrqqd
-      - 🇰🇷 韩国64346-usrdr
-      - 🇩🇪 德国36743-usrdr
-      - 🇨🇳 V2 [ Taiwan ] - 02 - 三网直连
-      - 🇭🇰 V2 [ HKT ] - 02 - 三网直连
-      - 🇨🇳 V2 [ Taiwan ] - 03 - 三网直连
-      - 🇭🇰 V2 [ HKT ] - 02 - CMI
-      - 🇭🇰 V2 [ WTT ] - 01 - 两网直连
-      - 🇭🇰 V2 [ US ] - vmess- CMI
-      - 🇭🇰 V2 [ NG ] - 01 - CMI
-      - 🇰🇷 韩国63093-usrtgjg
-      - 🇫🇷 法国45440-usrtgjg
-      - 🇫🇷 法国45439-usrwl
-      - 🇰🇷 韩国64344-usrwl
-      - 🇺🇸 v6美国8888-usrwl
-      - 🇫🇷 法国45442-usrces
-      - 🇰🇷 韩国1号64348-usrces
-      - 🇺🇸 v6美国8888-usrces
-      - 🇰🇷 韩国3号34448-usrqqmp
-      - 🇰🇷 韩国春川63498-usrqqmp
-      - 🇰🇷 韩国2号60148-usrqqmp
-      - 🇩🇪 德国36742-usrqqmp
-      - 🇺🇸 v6美国8888-usrqqmp
-      - 🇰🇷 韩国2号60147-usrtgedi
-      - 🇩🇪 德国36741-usrtgedi
-      - 🇺🇸 bt优先使用此节点 美国30075
-      - 🇰🇷 韩国春川63497-usrwxdd
-      - 🇫🇷 法国45449-usrwxdd
-      - 🇰🇷 韩国1号64345-usrwxdd
+      - 🇨🇳 CN-上海游戏节点
+      - 🇨🇳 CN-浙江BGP
+      - 🇨🇳 CN-安徽联通
+      - 🇨🇳 CN-河南移动
+      - 🇨🇳 CN-宿迁BGP
+      - 🇨🇳 CN-浙江BGP(443端口)
+      - 🇨🇳 CN-宿迁BGP(443端口)
+      - 🇨🇳 CN-安徽联通(443端口)
+      - 🇨🇳 CN-河南移动(443端口)
+      - 🇨🇳 CN-安徽 500m
+      - 🇨🇳 CN-上海1G
+      - 🇨🇳 CN-河南1G
+      - 🇨🇳 TW 1G 家宽/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇭🇰 HK 5G
+      - 🇭🇰 HK 5G(443端口)
+      - 🇸🇬 SG 5G
+      - 🇯🇵 JP 5G
+      - 🇰🇷 Kr 5G
+      - GER Frankfurt 5G
+      - 以下均为中转流媒体节点
+      - 🇩🇪 辽德隧道-法兰克福 5x
+      - 🇦🇪 辽德隧道-迪拜 5x
+      - 🇬🇧 辽德隧道-英国 5x
+      - 🇹🇷 辽德隧道-土耳其 5x
+      - 以下均解锁流媒体
+      - 🇸🇬 Singapore4G/Netflix
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇬🇧 UK 4G/Netflix
+      - 🇺🇸 US Chicago 4G/Netflix
+      - 🇺🇸 US Ashburn 4G/Netflix
+      - 🇦🇪 Dubai 4G/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇰🇷 Korea Chunchuan 4G/Netflix
+      - 🇰🇷 Korea Seoul  4G/Netflix
+      - 🇲🇽 Mexico 4G/Netflix
+      - 🇮🇳 Mumbai 4G/Netflix
+      - 🇨🇳 CN-广西V6A-x1x
+      - 🇨🇳 CN-广西V6B-x1x
+      - MUM中转-x1x
+      - 🇭🇰 HK-V6-x1x
+      - 🇸🇬 SG-V6-x1x
+      - 🇯🇵 JP-x1x
+      - 🇰🇷 KR-x1x
+      - 🇭🇰 HK-x1x
   - name: 支付宝u净（直连）
     type: select
     proxies:
@@ -167,36 +215,52 @@ proxy-groups:
       - 🇫🇷 法国自用45438
       - 🇺🇸 hax-us-自用80
       - hax-eu-自用80
-      - 🇰🇷 韩国节点63098-usrqqd
-      - 🇩🇪 德国36745-usrqqd
-      - 🇰🇷 韩国64346-usrdr
-      - 🇩🇪 德国36743-usrdr
-      - 🇨🇳 V2 [ Taiwan ] - 02 - 三网直连
-      - 🇭🇰 V2 [ HKT ] - 02 - 三网直连
-      - 🇨🇳 V2 [ Taiwan ] - 03 - 三网直连
-      - 🇭🇰 V2 [ HKT ] - 02 - CMI
-      - 🇭🇰 V2 [ WTT ] - 01 - 两网直连
-      - 🇭🇰 V2 [ US ] - vmess- CMI
-      - 🇭🇰 V2 [ NG ] - 01 - CMI
-      - 🇰🇷 韩国63093-usrtgjg
-      - 🇫🇷 法国45440-usrtgjg
-      - 🇫🇷 法国45439-usrwl
-      - 🇰🇷 韩国64344-usrwl
-      - 🇺🇸 v6美国8888-usrwl
-      - 🇫🇷 法国45442-usrces
-      - 🇰🇷 韩国1号64348-usrces
-      - 🇺🇸 v6美国8888-usrces
-      - 🇰🇷 韩国3号34448-usrqqmp
-      - 🇰🇷 韩国春川63498-usrqqmp
-      - 🇰🇷 韩国2号60148-usrqqmp
-      - 🇩🇪 德国36742-usrqqmp
-      - 🇺🇸 v6美国8888-usrqqmp
-      - 🇰🇷 韩国2号60147-usrtgedi
-      - 🇩🇪 德国36741-usrtgedi
-      - 🇺🇸 bt优先使用此节点 美国30075
-      - 🇰🇷 韩国春川63497-usrwxdd
-      - 🇫🇷 法国45449-usrwxdd
-      - 🇰🇷 韩国1号64345-usrwxdd
+      - 🇨🇳 CN-上海游戏节点
+      - 🇨🇳 CN-浙江BGP
+      - 🇨🇳 CN-安徽联通
+      - 🇨🇳 CN-河南移动
+      - 🇨🇳 CN-宿迁BGP
+      - 🇨🇳 CN-浙江BGP(443端口)
+      - 🇨🇳 CN-宿迁BGP(443端口)
+      - 🇨🇳 CN-安徽联通(443端口)
+      - 🇨🇳 CN-河南移动(443端口)
+      - 🇨🇳 CN-安徽 500m
+      - 🇨🇳 CN-上海1G
+      - 🇨🇳 CN-河南1G
+      - 🇨🇳 TW 1G 家宽/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇭🇰 HK 5G
+      - 🇭🇰 HK 5G(443端口)
+      - 🇸🇬 SG 5G
+      - 🇯🇵 JP 5G
+      - 🇰🇷 Kr 5G
+      - GER Frankfurt 5G
+      - 以下均为中转流媒体节点
+      - 🇩🇪 辽德隧道-法兰克福 5x
+      - 🇦🇪 辽德隧道-迪拜 5x
+      - 🇬🇧 辽德隧道-英国 5x
+      - 🇹🇷 辽德隧道-土耳其 5x
+      - 以下均解锁流媒体
+      - 🇸🇬 Singapore4G/Netflix
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇬🇧 UK 4G/Netflix
+      - 🇺🇸 US Chicago 4G/Netflix
+      - 🇺🇸 US Ashburn 4G/Netflix
+      - 🇦🇪 Dubai 4G/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇰🇷 Korea Chunchuan 4G/Netflix
+      - 🇰🇷 Korea Seoul  4G/Netflix
+      - 🇲🇽 Mexico 4G/Netflix
+      - 🇮🇳 Mumbai 4G/Netflix
+      - 🇨🇳 CN-广西V6A-x1x
+      - 🇨🇳 CN-广西V6B-x1x
+      - MUM中转-x1x
+      - 🇭🇰 HK-V6-x1x
+      - 🇸🇬 SG-V6-x1x
+      - 🇯🇵 JP-x1x
+      - 🇰🇷 KR-x1x
+      - 🇭🇰 HK-x1x
 rules:
     - DOMAIN-SUFFIX,wxvcard.hhu.edu.cn, 门禁分流（直连）
     - DOMAIN-SUFFIX,zhinengxiyifang.cn,支付宝u净（直连）
