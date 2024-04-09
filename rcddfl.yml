@@ -57,10 +57,9 @@ proxy-groups:
       - 🇯🇵 JP-x1x
       - 🇰🇷 KR-x1x
       - 🇭🇰 HK-x1x
-  - name:📲 Telegram
+  - name:  📲 Telegram
     type: select
     proxies:
-      - DIRECT
       - 🇭🇰 香港v6 80
       - 🇺🇸 美国v6 80
       - sjy春川21858
