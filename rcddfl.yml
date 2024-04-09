@@ -57,6 +57,34 @@ proxy-groups:
       - 🇯🇵 JP-x1x
       - 🇰🇷 KR-x1x
       - 🇭🇰 HK-x1x
+  - name:📲 Telegram
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港v6 80
+      - 🇺🇸 美国v6 80
+      - sjy春川21858
+      - 🇺🇸 node洛杉矶30076
+      - 🇨🇳 qq捡杭州阿里云
+      - 🇺🇸 hax-us-53
+      - hax-eu-53
+      - 🇯🇵 东京6自用22299
+      - 春川3自用63499
+      - 🇰🇷 首尔3自用64349
+      - 🇰🇷 首尔2自用60149
+      - 🇰🇷 首尔6自用34449
+      - 🇩🇪 德国6自用36748
+      - 🇫🇷 法国自用45438
+      - 🇺🇸 hax-us-自用80
+      - hax-eu-自用80
+      - 🇨🇳 CN-广西V6A-x1x
+      - 🇨🇳 CN-广西V6B-x1x
+      - MUM中转-x1x
+      - 🇭🇰 HK-V6-x1x
+      - 🇸🇬 SG-V6-x1x
+      - 🇯🇵 JP-x1x
+      - 🇰🇷 KR-x1x
+      - 🇭🇰 HK-x1x
   - name: 门禁分流（直连）
     type: select
     proxies:
@@ -121,7 +149,44 @@ rules:
     - DOMAIN-SUFFIX,umini.shujupie.com,支付宝u净（直连）
     - DOMAIN-SUFFIX,fe-logs.cn-hangzhou.log.alliyuncs.com,支付宝u净（直连）
     - DOMAIN-SUFFIX,cloudsaleapi.alipay-eco.com,支付宝u净（直连）
-    
+    - DOMAIN,api.imem.app,📲 Telegram
+    - DOMAIN,api.swiftgram.app,📲 Telegram
+    - DOMAIN-SUFFIX,cdn-telegram.org,📲 Telegram
+    - DOMAIN-SUFFIX,comments.app,📲 Telegram
+    - DOMAIN-SUFFIX,contest.com,📲 Telegram
+    - DOMAIN-SUFFIX,graph.org,📲 Telegram
+    - DOMAIN-SUFFIX,legra.ph,📲 Telegram
+    - DOMAIN-SUFFIX,mbrx.app,📲 Telegram
+    - DOMAIN-SUFFIX,quiz.directory,📲 Telegram
+    - DOMAIN-SUFFIX,stel.com,📲 Telegram
+    - DOMAIN-SUFFIX,t.me,📲 Telegram
+    - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
+    - DOMAIN-SUFFIX,telega.one,📲 Telegram
+    - DOMAIN-SUFFIX,telegra.ph,📲 Telegram
+    - DOMAIN-SUFFIX,telegram-cdn.org,📲 Telegram
+    - DOMAIN-SUFFIX,telegram.dog,📲 Telegram
+    - DOMAIN-SUFFIX,telegram.me,📲 Telegram
+    - DOMAIN-SUFFIX,telegram.org,📲 Telegram
+    - DOMAIN-SUFFIX,telegram.space,📲 Telegram
+    - DOMAIN-SUFFIX,telegramdownload.com,📲 Telegram
+    - DOMAIN-SUFFIX,telesco.pe,📲 Telegram
+    - DOMAIN-SUFFIX,tg.dev,📲 Telegram
+    - DOMAIN-SUFFIX,tx.me,📲 Telegram
+    - DOMAIN-SUFFIX,usercontent.dev,📲 Telegram
+    - DOMAIN-KEYWORD,nicegram,📲 Telegram
+    - IP-CIDR,109.239.140.0/24,📲 Telegram
+    - IP-CIDR,149.154.160.0/20,📲 Telegram
+    - IP-CIDR,5.28.192.0/18,📲 Telegram
+    - IP-CIDR,91.108.0.0/16,📲 Telegram
+    - IP-CIDR6,2001:67c:4e8::/48,📲 Telegram
+    - IP-CIDR6,2001:b28:f23c::/47,📲 Telegram
+    - IP-CIDR6,2001:b28:f23f::/48,📲 Telegram
+    - IP-CIDR6,2a0a:f280::/29,📲 Telegram
+    - PROCESS-NAME,Telegram.exe,📲 Telegram
+    - PROCESS-NAME,nekox.messenger,📲 Telegram
+    - PROCESS-NAME,org.telegram.messenger,📲 Telegram
+    - PROCESS-NAME,telegram-desktop,📲 Telegram
+  
 
 
     - MATCH,  🐟 漏网之鱼
