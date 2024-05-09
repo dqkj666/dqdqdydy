@@ -38,7 +38,7 @@ proxies:
   - {name: 🇯🇵 JP-x1x, server: jp-tokyo-oracle-02b459.ip1.shop, port: 50903, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 KR-x1x, server: kr-seoul-oracle-899012.ip1.shop, port: 41955, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇭🇰 HK-x1x, server: 191.96.243.93, port: 80, type: vmess, uuid: 69e4ee5c-cbb6-4d61-b684-4b03fd7b9049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
- proxy-groups:
+proxy-groups:
   - name:  🐟 漏网之鱼
     type: select
     proxies:
