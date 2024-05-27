@@ -8,7 +8,7 @@ proxies:
   - {name: 🇭🇰 香港v6 80, server: hk.myya.link, port: 80, type: vmess, uuid: e2ad5b49-b6f8-4919-9dd2-4e6565737150, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 美国v6 80, server: v6.myya.link, port: 80, type: vmess, uuid: 447a4622-9608-4095-86bd-8651423a0d91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇯🇵 东京6自用22299, server: jp.myya.link, port: 22299, type: vmess, uuid: 950169ff-04a9-4600-aaa0-1741081a4465, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /22299, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
-  - {name: 春川3自用63499, server: cc.myya.link, port: 63499, type: vmess, uuid: cb245306-d5e1-4817-896d-94c33952022a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /63499, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 首尔3自用54849, server: sr2.myya.link, port: 54849, type: vmess, uuid: da8fad67-0c61-45a5-a9ce-ec1078ac5bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /54849, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇰🇷 首尔7自用23098, server: srdd.myya.link, port: 23098, type: vmess, uuid: 5448f910-7a12-4f34-b792-8f4ea653d058, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /23098, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇩🇪 德国6自用36748, server: de.myya.link, port: 36748, type: vmess, uuid: b6b7c14c-8104-418b-871e-596830f02d55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /36748, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
   - {name: 🇺🇸 hax-us-自用80, server: 2602:294:0:b7:1234:1234:d777:1, port: 80, type: vmess, uuid: a40e0e1e-fe0e-4ee2-a484-2d84fe456843, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ml80, headers: {Host: down-cdn.dingtalk.com}}, udp: true}
@@ -45,7 +45,7 @@ proxy-groups:
       - 🇭🇰 香港v6 80
       - 🇺🇸 美国v6 80
       - 🇯🇵 东京6自用22299
-      - 春川3自用63499
+      - 🇰🇷 首尔3自用54849
       - 🇰🇷 首尔7自用23098
       - 🇩🇪 德国6自用36748
       - 🇺🇸 hax-us-自用80
@@ -81,7 +81,7 @@ proxy-groups:
       - 🇭🇰 香港v6 80
       - 🇺🇸 美国v6 80
       - 🇯🇵 东京6自用22299
-      - 春川3自用63499
+      - 🇰🇷 首尔3自用54849
       - 🇰🇷 首尔7自用23098
       - 🇩🇪 德国6自用36748
       - 🇺🇸 hax-us-自用80
@@ -118,7 +118,7 @@ proxy-groups:
       - 🇭🇰 香港v6 80
       - 🇺🇸 美国v6 80
       - 🇯🇵 东京6自用22299
-      - 春川3自用63499
+      - 🇰🇷 首尔3自用54849
       - 🇰🇷 首尔7自用23098
       - 🇩🇪 德国6自用36748
       - 🇺🇸 hax-us-自用80
@@ -155,7 +155,7 @@ proxy-groups:
       - 🇭🇰 香港v6 80
       - 🇺🇸 美国v6 80
       - 🇯🇵 东京6自用22299
-      - 春川3自用63499
+      - 🇰🇷 首尔3自用54849
       - 🇰🇷 首尔7自用23098
       - 🇩🇪 德国6自用36748
       - 🇺🇸 hax-us-自用80
